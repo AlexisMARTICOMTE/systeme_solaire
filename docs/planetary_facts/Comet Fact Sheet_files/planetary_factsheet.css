@@ -1,0 +1,119 @@
+table {
+   table-layout: auto;
+   border-collapse: collapse;
+   font-family: monospace;
+}
+
+caption {
+   font-size: 18px;
+   font-weight: bold;	
+   text-align: left;	
+}
+
+th, td {
+   width: auto; 
+   text-align: center;
+   font-size: 12px;
+   white-space: nowrap;
+   overflow: hidden;
+}
+
+th:first-child, td:first-child {
+   width: 22%;
+   text-align: left;
+   white-space: nowrap;
+}
+
+.bulk {
+   width: 800px;
+}
+
+.orbital {
+   table-layout: fixed;
+   width: 950px;
+}
+
+.orbital tr > th:first-child , 
+.orbital tr > td:first-child { 
+   width: 25%;
+}
+
+.asteroid {
+   table-layout: auto;
+   width: 1000px;
+}
+
+.asteroid thead > tr > th:first-child { 
+   width: auto;
+   text-align: center;
+   white-space: nowrap;
+}
+
+.asteroid thead > tr > th:nth-child(2) {
+   text-align: center;
+   white-space: nowrap;
+}
+
+.asteroid tbody > tr > td {
+   padding: 2px; 
+}
+
+.asteroid tbody > tr > td:first-child,
+.asteroid tbody > tr > td:nth-last-child(2) {
+   width: 50px;
+   text-align: right; 
+   white-space: nowrap;
+}
+
+.asteroid tbody > tr > td:nth-child(2),
+.asteroid tbody > tr > td:last-child {
+   width: 100px;
+   text-align: left; 
+   white-space: nowrap;
+}
+
+.asteroid tbody > tr:nth-child(odd) > td {
+   /* background-color: #A9A9A9; */
+   background-color: #CAC6C6;
+}
+
+.comet {
+   table-layout: auto;
+   width: 1000px;
+}
+
+.comet thead > tr:first-child > td:first-child,
+.comet thead > tr > th:first-child { 
+   width: auto;
+   /* text-align: center; */
+   text-align: left;
+   white-space: nowrap;
+}
+
+.comet thead > tr > th:nth-child(2) {
+   text-align: center;
+   white-space: nowrap;
+}
+
+.comet tbody > tr > td {
+   padding: 2px; 
+}
+
+.comet tbody > tr > td:first-child {
+   width: 25px;
+   text-align: right; 
+   white-space: nowrap;
+}
+
+.comet tbody > tr > td:nth-child(2) {
+   width: 125px;
+   text-align: left; 
+   white-space: nowrap;
+   padding-left: 5px;
+}
+
+.comet tbody > tr:nth-child(odd) > td {
+   /* background-color: #A9A9A9; */
+   background-color: #CAC6C6;
+}
+
